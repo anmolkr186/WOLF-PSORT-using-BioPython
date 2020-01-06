@@ -22,7 +22,7 @@ You’d need to install the following python libraries:
 * Selenium
 * Tkinter
 
-You’d also need to download the chromium driver as per your Chrome Browser version. The chromedriver.exe file must be downloaded in the C drive of your machine.
+You’d also need to download the chrome driver as per your Chrome Browser version. The chromedriver.exe file must be downloaded in the C drive of your machine.
 
 ## Co-contributors
 * Shreya Garg
