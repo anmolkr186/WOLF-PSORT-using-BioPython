@@ -22,7 +22,7 @@ BioPython
 Selenium
 Tkinter
 
-You’d also need to download the chromium driver as per your Chrome Browser version. You must be running the python code in the directory where chromedriver.exe file is downloaded.
+You’d also need to download the chromium driver as per your Chrome Browser version. The chromedriver.exe file must be downloaded in the C drive of your machine.
 
 ## Co-contributors
 * Shreya Garg
