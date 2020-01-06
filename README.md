@@ -25,11 +25,11 @@ Tkinter
 You’d also need to download the chromium driver as per your Chrome Browser version. You must be running the python code in the directory where chromedriver.exe file is downloaded.
 
 ## Co-contributors
-Shreya Garg
-Sejal Singh
-Bhavik Aggarwal
-Sarthak Pal
-VRS Pranav
+* Shreya Garg
+* Sejal Singh
+* Bhavik Aggarwal
+* Sarthak Pal
+* VRS Pranav
 
 
 
