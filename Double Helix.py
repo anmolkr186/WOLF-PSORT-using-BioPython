@@ -112,7 +112,7 @@ class ExampleApp(tk.Tk):
         options.add_argument('--headless')
         #options.add_argument('--window-size=1920x1080')
         #options.add_argument('--disable-gpu')
-        driver = webdriver.Chrome(executable_path=r'D:\chromedriver.exe',chrome_options=options)
+        driver = webdriver.Chrome(executable_path=r'C:\chromedriver.exe',chrome_options=options)
         driver.get('https://wolfpsort.hgc.jp/')
 
         animal_checkbox = driver.find_element_by_xpath("/html/body/div/form/table/tbody/tr[1]/td[1]/p[1]/input[1]")
