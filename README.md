@@ -18,9 +18,9 @@ After we obtain the sequence with maximum homology to the input sequence (in cas
 
 ## Prerequisites for running the code
 You’d need to install the following python libraries:
-BioPython
-Selenium
-Tkinter
+* BioPython
+* Selenium
+* Tkinter
 
 You’d also need to download the chromium driver as per your Chrome Browser version. The chromedriver.exe file must be downloaded in the C drive of your machine.
 
