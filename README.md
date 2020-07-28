@@ -8,7 +8,7 @@ Our project aims at predicting the  sub-localization of proteins in an organelle
 The user will be providing an input into GUI program as a string or he can input the sequence in the form of a FASTA file/ .txt file. The program would parse string according to appropriate delimiters and store it in a hashmap.
 
 ## Extraction of protein sequence from NCBI 
-Since our main objective is to do to comparisons through primary sequencing, we need to have a local database of few proteins from each of the organelle which takes into account the homology among different species so that we would have the most accurate results for a wider range of inputs. The local database of proteins is made through scripting using Entrez E-Utilities tool by NCBI. E-utilities use a fixed URL syntax that translates a standard set of input parameters into the values necessary for various NCBI software components to search for and retrieve the requested data from.
+Since our main objective was to do to comparisons through primary sequencing, we need to have a local database of few proteins from each of the organelle which takes into account the homology among different species so that we would have the most accurate results for a wider range of inputs. The local database of proteins is made through scripting using Entrez E-Utilities tool by NCBI. E-utilities use a fixed URL syntax that translates a standard set of input parameters into the values necessary for various NCBI software components to search for and retrieve the requested data from.
 
 ## Running BLAST 
 With the help of the parsed fasta file, we will do a PSI-BLAST for the protein sequence using the BLAST Common URL API. The NCBI-BLAST Common URL API allows us to run searches remotely.
